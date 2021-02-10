@@ -1,14 +1,14 @@
 
-title: My Resume
+title: 数字大岭山
 url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
+baseurl: '/' #change it according to your repository name
 
 
 
 # Profile information
-yourname: Brown Smith  ## put your name
-title: 'GRAPHIC &amp; WEB DESIGNER'  ## your title
-location: San Francisco , CA
+yourname: 乡下仔  ## put your name
+title: '数字大岭山'  ## your title
+location: 广东 , 东莞
 
 
 ## Social Profiles
