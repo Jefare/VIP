@@ -1340,15 +1340,15 @@ ul.about {
 
 
 /*--------------------------------------------------
------------------------- Blog ----------------------
+------------------------ village ----------------------
 ---------------------------------------------------*/
 
-.blog-article {
+.village-article {
     padding-top: 37px;
     padding-bottom: 35px;
 }
 
-.blog-article .post_media{
+.village-article .post_media{
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1358,7 +1358,7 @@ ul.about {
     padding-bottom: 15px;
 }
 
-.blog-article .post_content{
+.village-article .post_content{
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1369,7 +1369,7 @@ ul.about {
     padding-top:0;
 }
 
-.blog-article .post_media_detail{
+.village-article .post_media_detail{
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
@@ -1379,7 +1379,7 @@ ul.about {
     padding-bottom: 15px !important;
 }
 
-.blog-article .media {
+.village-article .media {
     margin-top: 15px;
     display: block;
     max-width: 100%;
@@ -1391,11 +1391,11 @@ ul.about {
 	/* height: 205px;*/
 }
 
-.blog-article:first-child .media {
+.village-article:first-child .media {
     height: auto;
 }
 
-.blog-article .media img {
+.village-article .media img {
      width: 100% !important;
 }
 
@@ -1403,13 +1403,13 @@ ul.about {
      width: 100% !important;
 }
 
-.blog-article:first-child {
+.village-article:first-child {
     padding-top: 0;
 }
-.blog-article.v2 span.date {
+.village-article.v2 span.date {
     margin-top: 0;
 }
-.blog-article span.date {
+.village-article span.date {
     color: #222;
     text-transform: uppercase;
     font-size: 13px;
@@ -1417,7 +1417,7 @@ ul.about {
     float: left;
     width: 100%;
 }
-.blog-article h1 {
+.village-article h1 {
     margin-top: 30px;
     margin-bottom: 5px;
     float: left;
@@ -1426,12 +1426,12 @@ ul.about {
     color: #222222;
     font-size: 20px;
 }
-.blog-article .blog-content {
+.village-article .village-content {
     float: left;
     width: 100%;
     margin-top: 28px;
 }
-.blog-article .info {
+.village-article .info {
     margin: 0;
     padding: 0;
     float: left;
@@ -1439,7 +1439,7 @@ ul.about {
     margin-top: 15px;
     list-style: none;
 }
-.blog-article .info li {
+.village-article .info li {
     padding-left: 7px;
     padding-right: 7px;
     border-left: 1px solid #999999;
@@ -1448,11 +1448,11 @@ ul.about {
     line-height: 13px;
     font-size: 12px;
 }
-.blog-article .info li:first-child {
+.village-article .info li:first-child {
     padding-left: 0;
     border-left: none;
 }
-.blog-article a.read_m {
+.village-article a.read_m {
     position: relative;
     float: left;
     margin-top: 28px;
@@ -1465,7 +1465,7 @@ ul.about {
     text-align: center;
     border: 1px solid #dadada;
 }
-.blog-article a.read_m:hover {
+.village-article a.read_m:hover {
     color: #FFF;
     padding: 6px;
     transition-property: border;
@@ -1475,15 +1475,15 @@ ul.about {
     transition-duration: 1s;
     transition-timing-function: linear;
 }
-.blog-article .blog-content p:first-child {
+.village-article .village-content p:first-child {
     padding-top: 0;
     margin-top: 0;
 }
-.blog-article .blog-content p:last-child {
+.village-article .village-content p:last-child {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.blog-article:last-child {
+.village-article:last-child {
     border-bottom: none;
 }
 .border-list {
@@ -1491,13 +1491,13 @@ ul.about {
     margin: auto;
     margin-top: 30px;
 }
-.blog-article .img-hover {
+.village-article .img-hover {
     opacity: 0.5;
     transition: opacity 0.7s ease-out 0.2s;
     -moz-transition: opacity 0.7s ease-out 0.2s;
     -webkit-transition: opacity 0.7s ease-out 0.2s;
 }
-.blog-article .img-hover:hover {
+.village-article .img-hover:hover {
     opacity: 1;
     transition: opacity 1s ease-out 0.2s;
     -moz-transition: opacity 1s ease-out 0.2s;
@@ -1595,13 +1595,13 @@ ul.info-post li {
     margin-top: 13px;
     font-size: 12px !important;
 }
-/** sidebar blog **/
+/** sidebar village **/
 
 
-#sidebar-right .search-blog, #sidebar-left .search-blog {
+#sidebar-right .search-village, #sidebar-left .search-village {
     margin-bottom: 15px;
 }
-#sidebar-right .search-blog input, #sidebar-left .search-blog input {
+#sidebar-right .search-village input, #sidebar-left .search-village input {
     padding-right: 25px;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -1619,7 +1619,7 @@ ul.info-post li {
     -o-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
 }
-#sidebar-right .search-blog i, #sidebar-left .search-blog i {
+#sidebar-right .search-village i, #sidebar-left .search-village i {
     cursor: pointer;
     width: 30px;
     height: 37px;
@@ -1801,7 +1801,7 @@ ul.info-post li {
     border-bottom: none;
 }
 
-.blog-article .content-post .about_author {
+.village-article .content-post .about_author {
     background: rgba(100, 100, 100, 0.1);
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1826,20 +1826,20 @@ ul.info-post li {
 }
 
 
-#blog .post_comments .comment{
+#village .post_comments .comment{
     background: rgba(100, 100, 100, 0.1);
     padding: 13px;
     margin-bottom: 15px;
 }
 
-#blog .post_comments .comment{
+#village .post_comments .comment{
     padding:0;
     padding: 10px;
     background-color: #f7f7f7;
     color: #999;
 }
 
-#blog .post_comments .comment.sub{
+#village .post_comments .comment.sub{
     margin-left: 50px;
     float: left;
     padding-left: 13px;
@@ -1851,7 +1851,7 @@ ul.info-post li {
     border-top: 1px solid #eee;
 }
 
-#blog .post_comments .comment img{
+#village .post_comments .comment img{
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -1860,28 +1860,28 @@ ul.info-post li {
     border-radius: 50px;
 }
 
-#blog .post_comments .comment .text{
+#village .post_comments .comment .text{
     display: inline-block;
     width:84%;
     line-height: 18px;
     float: left;
 }
 
-#blog .post_comments .comment.sub .text{
+#village .post_comments .comment.sub .text{
     width: 81%;
 }
 
-#blog .post_comments .comment .name,
-#blog .post_comments .comment .date{
+#village .post_comments .comment .name,
+#village .post_comments .comment .date{
     width: 100%;
     margin-bottom: 5px;
 }
 
-#blog .post_comments .comment .name{
+#village .post_comments .comment .name{
     font-size: 16px;
 }
 
-#blog .post_comments .comment .date{
+#village .post_comments .comment .date{
     color:#777777;
 }
 
@@ -1889,15 +1889,15 @@ ul.info-post li {
     width: 165px;
 }
 
-#blog .post_comments > .title:after{
+#village .post_comments > .title:after{
     width:195px;
 }
 
-#blog .post_comments .comment_form > .title:after{
+#village .post_comments .comment_form > .title:after{
     width: 210px;
 }
 
-#blog .post_comments .comment_form .form input{
+#village .post_comments .comment_form .form input{
     display: block;
     width: 100%;
     height: 34px;
@@ -1918,7 +1918,7 @@ ul.info-post li {
     font-family: 'Lato', sans-serif;
 }
 
-#blog .post_comments .comment_form .form textarea{
+#village .post_comments .comment_form .form textarea{
     display: block;
     width: 100%;
     padding: 6px 12px;
@@ -1938,7 +1938,7 @@ ul.info-post li {
     font-family: 'Lato', sans-serif;
 }
 
-#blog .post_comments .comment_form .form .post_comment_btn{
+#village .post_comments .comment_form .form .post_comment_btn{
     float: left;
 }
 
@@ -2417,20 +2417,20 @@ ul.info-post li {
         font-size: 12px;
     }
 
-    #blog .text_content {
+    #village .text_content {
         font-size: 10px;
     }
-    .blog-article .media,
+    .village-article .media,
     .media iframe,
     .postPage .postVideo {
         height: 130px !important;
     }
 
-    #blog .post_comments .comment.sub {
+    #village .post_comments .comment.sub {
         margin: 0;
     }
 
-    #blog .post_comments .comment .text {
+    #village .post_comments .comment .text {
         float: none;
     }
 
@@ -2447,7 +2447,7 @@ ul.info-post li {
         font-size: 10px;
     }
 
-    .blog-article a.read_m {
+    .village-article a.read_m {
         width: 100%;
     }
 
@@ -2485,11 +2485,11 @@ ul.info-post li {
         font-size: 12px;
     }
 
-    #blog .post_comments .comment.sub {
+    #village .post_comments .comment.sub {
         margin: 0px;
     }
 
-    #blog .post_comments .comment .text {
+    #village .post_comments .comment .text {
         float: none;
     }
 
@@ -2515,11 +2515,11 @@ ul.info-post li {
         font-size: 15px;
     }
 
-    .blog-article .info li:first-child {
+    .village-article .info li:first-child {
         border-left: none;
         float:none;
     }
-    .blog-article .info li {
+    .village-article .info li {
         padding-top: 7px;
         border-left: none;
         padding-left: 0px;
@@ -2531,7 +2531,7 @@ ul.info-post li {
     }
 
 
-    .blog-article .media {
+    .village-article .media {
         height: 205px;
     }
 
@@ -2551,15 +2551,15 @@ ul.info-post li {
         text-align:center;
     }
 
-    #blog .post_comments .comment img{
+    #village .post_comments .comment img{
         float: none;
     }
 
-    #blog .post_comments .comment.sub {
+    #village .post_comments .comment.sub {
         margin: 0px;
     }
 
-    #blog .post_comments .comment .text {
+    #village .post_comments .comment .text {
         float: none;
     }
 
@@ -2575,7 +2575,7 @@ ul.info-post li {
         margin-left: 0;
     }
 
-    .blog-article a.read_m { width: 100%; }
+    .village-article a.read_m { width: 100%; }
 
 }
 
@@ -2744,7 +2744,7 @@ li h6{
     border-left: 0;
 }
 
-#blog .post_media  .post-format-icon {
+#village .post_media  .post-format-icon {
     display: block;
     line-height: 26px;
     width: 55px;
@@ -2769,7 +2769,7 @@ li h6{
 }
 
 
-#blog .post_med .post-format-icon:before {
+#village .post_med .post-format-icon:before {
     width: 55px;
     height: 55px;
     text-align: center;
@@ -2783,7 +2783,7 @@ li h6{
     text-decoration: none;
 }
 
-#blog .post_med a.item-date {
+#village .post_med a.item-date {
     left: 0;
     width: 55px;
     height: 55px;
