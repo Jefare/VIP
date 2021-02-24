@@ -29,7 +29,7 @@
     margin: -40px 0 0 -40px;
     background: url(../images/spinner.gif) no-repeat;
 }
-#gallery .mCSB_container { 
+#portfolio .mCSB_container { 
     margin-right: 0 !important; 
 }
 
@@ -417,10 +417,10 @@ h2.resp-accordion:hover {
 }
 
 /*--------------------------------------------------
-------------------- GMap --------------------
+------------------- Google Maps --------------------
 ---------------------------------------------------*/
 
-#gmap {
+#map {
     display: block;
     width: 100% !important;
     height: 300px !important;
@@ -431,7 +431,7 @@ h2.resp-accordion:hover {
     border-bottom: 1px solid #CCC;
     border-top: 1px solid #CCC;
 }
-#gmap.large {
+#map.large {
     height: 500px;
 }
 .overlay {
@@ -585,10 +585,10 @@ h2.resp-accordion:hover {
 }
 
 /*--------------------------------------------------
------------------------ gallery ------------------
+----------------------- Portfolio ------------------
 ---------------------------------------------------*/
 
-.container-gallery { 
+.container-portfolio { 
     position: relative; 
     width: 100%; 
     margin: 0 auto; 
@@ -625,7 +625,7 @@ h2.resp-accordion:hover {
     color:#fff;
 }
 
-#gallerylist .gallery {
+#portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -636,19 +636,19 @@ h2.resp-accordion:hover {
     overflow:hidden;
 }
 
-.gallery-wrapper {
+.portfolio-wrapper {
     overflow:hidden;
     position: relative !important;
     background: #666;
     cursor:pointer;
 }
 
-.gallery img {
+.portfolio img {
     max-width:100%;
     position: relative;
 }
 
-.gallery .label {
+.portfolio .label {
     position: absolute;
     width: 100%;
     height:40px;
@@ -656,7 +656,7 @@ h2.resp-accordion:hover {
     display: block !important;
 }
 
-.gallery .label-bg {
+.portfolio .label-bg {
     width: 100%;
     height:100%;
     position: absolute;
@@ -664,7 +664,7 @@ h2.resp-accordion:hover {
     left:0;
 }
 
-.gallery .label-text {
+.portfolio .label-text {
     color:#fff;
     position: relative;
     z-index:500;
@@ -672,7 +672,7 @@ h2.resp-accordion:hover {
     font-weight:300;
 }
 
-.gallery .text-title {
+.portfolio .text-title {
     display:block;
     font-size:13px;
     margin: 1px;
@@ -689,7 +689,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 767px) {
 
-    #gallerylist .gallery {
+    #portfoliolist .portfolio {
         width:48%;
         margin:1%;
     }	
@@ -1340,15 +1340,15 @@ ul.about {
 
 
 /*--------------------------------------------------
------------------------- village ----------------------
+------------------------ Blog ----------------------
 ---------------------------------------------------*/
 
-.village-article {
+.blog-article {
     padding-top: 37px;
     padding-bottom: 35px;
 }
 
-.village-article .post_media{
+.blog-article .post_media{
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1358,7 +1358,7 @@ ul.about {
     padding-bottom: 15px;
 }
 
-.village-article .post_content{
+.blog-article .post_content{
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1369,7 +1369,7 @@ ul.about {
     padding-top:0;
 }
 
-.village-article .post_media_detail{
+.blog-article .post_media_detail{
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
@@ -1379,7 +1379,7 @@ ul.about {
     padding-bottom: 15px !important;
 }
 
-.village-article .media {
+.blog-article .media {
     margin-top: 15px;
     display: block;
     max-width: 100%;
@@ -1391,11 +1391,11 @@ ul.about {
 	/* height: 205px;*/
 }
 
-.village-article:first-child .media {
+.blog-article:first-child .media {
     height: auto;
 }
 
-.village-article .media img {
+.blog-article .media img {
      width: 100% !important;
 }
 
@@ -1403,13 +1403,13 @@ ul.about {
      width: 100% !important;
 }
 
-.village-article:first-child {
+.blog-article:first-child {
     padding-top: 0;
 }
-.village-article.v2 span.date {
+.blog-article.v2 span.date {
     margin-top: 0;
 }
-.village-article span.date {
+.blog-article span.date {
     color: #222;
     text-transform: uppercase;
     font-size: 13px;
@@ -1417,7 +1417,7 @@ ul.about {
     float: left;
     width: 100%;
 }
-.village-article h1 {
+.blog-article h1 {
     margin-top: 30px;
     margin-bottom: 5px;
     float: left;
@@ -1426,12 +1426,12 @@ ul.about {
     color: #222222;
     font-size: 20px;
 }
-.village-article .village-content {
+.blog-article .blog-content {
     float: left;
     width: 100%;
     margin-top: 28px;
 }
-.village-article .info {
+.blog-article .info {
     margin: 0;
     padding: 0;
     float: left;
@@ -1439,7 +1439,7 @@ ul.about {
     margin-top: 15px;
     list-style: none;
 }
-.village-article .info li {
+.blog-article .info li {
     padding-left: 7px;
     padding-right: 7px;
     border-left: 1px solid #999999;
@@ -1448,11 +1448,11 @@ ul.about {
     line-height: 13px;
     font-size: 12px;
 }
-.village-article .info li:first-child {
+.blog-article .info li:first-child {
     padding-left: 0;
     border-left: none;
 }
-.village-article a.read_m {
+.blog-article a.read_m {
     position: relative;
     float: left;
     margin-top: 28px;
@@ -1465,7 +1465,7 @@ ul.about {
     text-align: center;
     border: 1px solid #dadada;
 }
-.village-article a.read_m:hover {
+.blog-article a.read_m:hover {
     color: #FFF;
     padding: 6px;
     transition-property: border;
@@ -1475,15 +1475,15 @@ ul.about {
     transition-duration: 1s;
     transition-timing-function: linear;
 }
-.village-article .village-content p:first-child {
+.blog-article .blog-content p:first-child {
     padding-top: 0;
     margin-top: 0;
 }
-.village-article .village-content p:last-child {
+.blog-article .blog-content p:last-child {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.village-article:last-child {
+.blog-article:last-child {
     border-bottom: none;
 }
 .border-list {
@@ -1491,13 +1491,13 @@ ul.about {
     margin: auto;
     margin-top: 30px;
 }
-.village-article .img-hover {
+.blog-article .img-hover {
     opacity: 0.5;
     transition: opacity 0.7s ease-out 0.2s;
     -moz-transition: opacity 0.7s ease-out 0.2s;
     -webkit-transition: opacity 0.7s ease-out 0.2s;
 }
-.village-article .img-hover:hover {
+.blog-article .img-hover:hover {
     opacity: 1;
     transition: opacity 1s ease-out 0.2s;
     -moz-transition: opacity 1s ease-out 0.2s;
@@ -1595,13 +1595,13 @@ ul.info-post li {
     margin-top: 13px;
     font-size: 12px !important;
 }
-/** sidebar village **/
+/** sidebar blog **/
 
 
-#sidebar-right .search-village, #sidebar-left .search-village {
+#sidebar-right .search-blog, #sidebar-left .search-blog {
     margin-bottom: 15px;
 }
-#sidebar-right .search-village input, #sidebar-left .search-village input {
+#sidebar-right .search-blog input, #sidebar-left .search-blog input {
     padding-right: 25px;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -1619,7 +1619,7 @@ ul.info-post li {
     -o-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
 }
-#sidebar-right .search-village i, #sidebar-left .search-village i {
+#sidebar-right .search-blog i, #sidebar-left .search-blog i {
     cursor: pointer;
     width: 30px;
     height: 37px;
@@ -1801,7 +1801,7 @@ ul.info-post li {
     border-bottom: none;
 }
 
-.village-article .content-post .about_author {
+.blog-article .content-post .about_author {
     background: rgba(100, 100, 100, 0.1);
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1826,20 +1826,20 @@ ul.info-post li {
 }
 
 
-#village .post_comments .comment{
+#blog .post_comments .comment{
     background: rgba(100, 100, 100, 0.1);
     padding: 13px;
     margin-bottom: 15px;
 }
 
-#village .post_comments .comment{
+#blog .post_comments .comment{
     padding:0;
     padding: 10px;
     background-color: #f7f7f7;
     color: #999;
 }
 
-#village .post_comments .comment.sub{
+#blog .post_comments .comment.sub{
     margin-left: 50px;
     float: left;
     padding-left: 13px;
@@ -1851,7 +1851,7 @@ ul.info-post li {
     border-top: 1px solid #eee;
 }
 
-#village .post_comments .comment img{
+#blog .post_comments .comment img{
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -1860,28 +1860,28 @@ ul.info-post li {
     border-radius: 50px;
 }
 
-#village .post_comments .comment .text{
+#blog .post_comments .comment .text{
     display: inline-block;
     width:84%;
     line-height: 18px;
     float: left;
 }
 
-#village .post_comments .comment.sub .text{
+#blog .post_comments .comment.sub .text{
     width: 81%;
 }
 
-#village .post_comments .comment .name,
-#village .post_comments .comment .date{
+#blog .post_comments .comment .name,
+#blog .post_comments .comment .date{
     width: 100%;
     margin-bottom: 5px;
 }
 
-#village .post_comments .comment .name{
+#blog .post_comments .comment .name{
     font-size: 16px;
 }
 
-#village .post_comments .comment .date{
+#blog .post_comments .comment .date{
     color:#777777;
 }
 
@@ -1889,15 +1889,15 @@ ul.info-post li {
     width: 165px;
 }
 
-#village .post_comments > .title:after{
+#blog .post_comments > .title:after{
     width:195px;
 }
 
-#village .post_comments .comment_form > .title:after{
+#blog .post_comments .comment_form > .title:after{
     width: 210px;
 }
 
-#village .post_comments .comment_form .form input{
+#blog .post_comments .comment_form .form input{
     display: block;
     width: 100%;
     height: 34px;
@@ -1918,7 +1918,7 @@ ul.info-post li {
     font-family: 'Lato', sans-serif;
 }
 
-#village .post_comments .comment_form .form textarea{
+#blog .post_comments .comment_form .form textarea{
     display: block;
     width: 100%;
     padding: 6px 12px;
@@ -1938,7 +1938,7 @@ ul.info-post li {
     font-family: 'Lato', sans-serif;
 }
 
-#village .post_comments .comment_form .form .post_comment_btn{
+#blog .post_comments .comment_form .form .post_comment_btn{
     float: left;
 }
 
@@ -2417,20 +2417,20 @@ ul.info-post li {
         font-size: 12px;
     }
 
-    #village .text_content {
+    #blog .text_content {
         font-size: 10px;
     }
-    .village-article .media,
+    .blog-article .media,
     .media iframe,
     .postPage .postVideo {
         height: 130px !important;
     }
 
-    #village .post_comments .comment.sub {
+    #blog .post_comments .comment.sub {
         margin: 0;
     }
 
-    #village .post_comments .comment .text {
+    #blog .post_comments .comment .text {
         float: none;
     }
 
@@ -2443,11 +2443,11 @@ ul.info-post li {
         margin-top: 0;
     }
 
-    .gallery .label-text {
+    .portfolio .label-text {
         font-size: 10px;
     }
 
-    .village-article a.read_m {
+    .blog-article a.read_m {
         width: 100%;
     }
 
@@ -2485,11 +2485,11 @@ ul.info-post li {
         font-size: 12px;
     }
 
-    #village .post_comments .comment.sub {
+    #blog .post_comments .comment.sub {
         margin: 0px;
     }
 
-    #village .post_comments .comment .text {
+    #blog .post_comments .comment .text {
         float: none;
     }
 
@@ -2515,11 +2515,11 @@ ul.info-post li {
         font-size: 15px;
     }
 
-    .village-article .info li:first-child {
+    .blog-article .info li:first-child {
         border-left: none;
         float:none;
     }
-    .village-article .info li {
+    .blog-article .info li {
         padding-top: 7px;
         border-left: none;
         padding-left: 0px;
@@ -2531,7 +2531,7 @@ ul.info-post li {
     }
 
 
-    .village-article .media {
+    .blog-article .media {
         height: 205px;
     }
 
@@ -2551,15 +2551,15 @@ ul.info-post li {
         text-align:center;
     }
 
-    #village .post_comments .comment img{
+    #blog .post_comments .comment img{
         float: none;
     }
 
-    #village .post_comments .comment.sub {
+    #blog .post_comments .comment.sub {
         margin: 0px;
     }
 
-    #village .post_comments .comment .text {
+    #blog .post_comments .comment .text {
         float: none;
     }
 
@@ -2575,7 +2575,7 @@ ul.info-post li {
         margin-left: 0;
     }
 
-    .village-article a.read_m { width: 100%; }
+    .blog-article a.read_m { width: 100%; }
 
 }
 
@@ -2744,7 +2744,7 @@ li h6{
     border-left: 0;
 }
 
-#village .post_media  .post-format-icon {
+#blog .post_media  .post-format-icon {
     display: block;
     line-height: 26px;
     width: 55px;
@@ -2769,7 +2769,7 @@ li h6{
 }
 
 
-#village .post_med .post-format-icon:before {
+#blog .post_med .post-format-icon:before {
     width: 55px;
     height: 55px;
     text-align: center;
@@ -2783,7 +2783,7 @@ li h6{
     text-decoration: none;
 }
 
-#village .post_med a.item-date {
+#blog .post_med a.item-date {
     left: 0;
     width: 55px;
     height: 55px;
