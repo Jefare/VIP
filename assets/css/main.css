@@ -29,7 +29,7 @@
     margin: -40px 0 0 -40px;
     background: url(../images/spinner.gif) no-repeat;
 }
-#portfolio .mCSB_container { 
+#gallery .mCSB_container { 
     margin-right: 0 !important; 
 }
 
@@ -585,10 +585,10 @@ h2.resp-accordion:hover {
 }
 
 /*--------------------------------------------------
------------------------ Portfolio ------------------
+----------------------- gallery ------------------
 ---------------------------------------------------*/
 
-.container-portfolio { 
+.container-gallery { 
     position: relative; 
     width: 100%; 
     margin: 0 auto; 
@@ -625,7 +625,7 @@ h2.resp-accordion:hover {
     color:#fff;
 }
 
-#portfoliolist .portfolio {
+#gallerylist .gallery {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -636,19 +636,19 @@ h2.resp-accordion:hover {
     overflow:hidden;
 }
 
-.portfolio-wrapper {
+.gallery-wrapper {
     overflow:hidden;
     position: relative !important;
     background: #666;
     cursor:pointer;
 }
 
-.portfolio img {
+.gallery img {
     max-width:100%;
     position: relative;
 }
 
-.portfolio .label {
+.gallery .label {
     position: absolute;
     width: 100%;
     height:40px;
@@ -656,7 +656,7 @@ h2.resp-accordion:hover {
     display: block !important;
 }
 
-.portfolio .label-bg {
+.gallery .label-bg {
     width: 100%;
     height:100%;
     position: absolute;
@@ -664,7 +664,7 @@ h2.resp-accordion:hover {
     left:0;
 }
 
-.portfolio .label-text {
+.gallery .label-text {
     color:#fff;
     position: relative;
     z-index:500;
@@ -672,7 +672,7 @@ h2.resp-accordion:hover {
     font-weight:300;
 }
 
-.portfolio .text-title {
+.gallery .text-title {
     display:block;
     font-size:13px;
     margin: 1px;
@@ -689,7 +689,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 767px) {
 
-    #portfoliolist .portfolio {
+    #gallerylist .gallery {
         width:48%;
         margin:1%;
     }	
@@ -2443,7 +2443,7 @@ ul.info-post li {
         margin-top: 0;
     }
 
-    .portfolio .label-text {
+    .gallery .label-text {
         font-size: 10px;
     }
 
